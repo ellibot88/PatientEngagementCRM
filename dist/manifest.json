@@ -1,0 +1,56 @@
+{
+  "name": "Patient Engagement CRM",
+  "version": "0.0.1",
+  "fullpage": true,
+  "size": {
+    "width": 4,
+    "height": 3
+  },
+  "fileName": "manifest.json",
+  "datasetsMapping": [
+    {
+      "alias": "patients",
+      "dataSetId": "4aa1d00e-cc74-40f6-89a3-3f6c1eb1a176",
+      "fields": []
+    }
+  ],
+  "collectionsMapping": [
+    {
+      "name": "PatientEngagement",
+      "schema": {
+        "columns": [
+          {
+            "name": "eventType",
+            "type": "STRING"
+          },
+          {
+            "name": "patientId",
+            "type": "STRING"
+          },
+          {
+            "name": "patientName",
+            "type": "STRING"
+          },
+          {
+            "name": "userId",
+            "type": "STRING"
+          },
+          {
+            "name": "userName",
+            "type": "STRING"
+          },
+          {
+            "name": "timestamp",
+            "type": "STRING"
+          },
+          {
+            "name": "comment",
+            "type": "STRING"
+          }
+        ]
+      },
+      "syncEnabled": true
+    }
+  ],
+  "id": "a9f862b9-267b-423f-96aa-112ceed6cc72"
+}
