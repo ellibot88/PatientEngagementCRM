@@ -7,6 +7,11 @@ const COLUMNS = [
   'Patient Account Number',
   'Patient First Name',
   'Patient Last Name',
+  'Resources',
+  'Appointment Type Name',
+  'Location',
+  'Appointment Date',
+  'Start Time',
   'Patient Phone',
   'Patient Date Of Birth',
 ];
@@ -38,7 +43,7 @@ export async function searchPatients(term: string): Promise<Patient[]> {
     .fetch('patients');
 
   const [first, last] = await Promise.all([firstNameResults, lastNameResults]);
-  const seen = new Set<number>();
+  const seen = new Set<string>();
   const merged: Patient[] = [];
   for (const row of [...(first as Patient[]), ...(last as Patient[])]) {
     if (!seen.has(row['Patient Account Number'])) {

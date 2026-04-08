@@ -1,3 +1,4 @@
+import domo from 'ryuu.js';
 import { Phone, PhoneOff, MessageSquare, UserPlus, UserMinus } from 'lucide-react';
 import type { Patient, PatientState, DomoUser } from '../types';
 import UserBadge from './UserBadge';
@@ -34,9 +35,25 @@ export default function PatientRow({
 
   return (
     <tr className={`patient-row${isCalled ? ' called' : ''}`}>
-      <td>{patient['Patient Account Number']}</td>
+      <td>
+        <a
+          className="crm-link"
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            domo.navigate(`https://pm.nextech.com/Practice_Management/Patient/ViewPatientIdentification/${patient['Patient Account Number']}`, true);
+          }}
+        >
+          {patient['Patient Account Number']}
+        </a>
+      </td>
       <td>{patient['Patient First Name']}</td>
       <td>{patient['Patient Last Name']}</td>
+      <td>{patient['Resources']}</td>
+      <td>{patient['Appointment Type Name']}</td>
+      <td>{patient['Location']}</td>
+      <td>{patient['Appointment Date']}</td>
+      <td>{patient['Start Time']}</td>
       <td>{patient['Patient Phone']}</td>
       <td>{patient['Patient Date Of Birth']}</td>
       <td className="assigned-cell">

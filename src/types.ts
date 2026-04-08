@@ -1,7 +1,12 @@
 export interface Patient {
-  'Patient Account Number': number;
+  'Patient Account Number': string;
   'Patient First Name': string;
   'Patient Last Name': string;
+  'Resources': string;
+  'Appointment Type Name': string;
+  'Location': string;
+  'Appointment Date': string;
+  'Start Time': string;
   'Patient Phone': string;
   'Patient Date Of Birth': string;
 }

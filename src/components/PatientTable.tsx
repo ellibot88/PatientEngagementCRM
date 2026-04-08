@@ -40,8 +40,13 @@ export default function PatientTable({
             <th>Account #</th>
             <th>First Name</th>
             <th>Last Name</th>
+            <th>Resources</th>
+            <th>Appt Type</th>
+            <th>Location</th>
+            <th>Appt Date</th>
+            <th>Start Time</th>
             <th>Phone</th>
-            <th>Date of Birth</th>
+            <th>DOB</th>
             <th>Assigned To</th>
             <th>Call Status</th>
             <th style={{ width: 48 }}></th>

@@ -104,6 +104,18 @@ body {
   flex-shrink: 0;
 }
 
+/* ── CRM Link ── */
+.crm-link {
+  color: var(--accent);
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.crm-link:hover {
+  color: var(--accent-hover);
+}
+
 /* ── Filter Bar ── */
 .filter-bar {
   display: flex;

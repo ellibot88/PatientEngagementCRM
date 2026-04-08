@@ -10,7 +10,7 @@
   "datasetsMapping": [
     {
       "alias": "patients",
-      "dataSetId": "4aa1d00e-cc74-40f6-89a3-3f6c1eb1a176",
+      "dataSetId": "b1508706-2597-4d5a-9828-0c55921ea9f8",
       "fields": []
     }
   ],
@@ -30,5 +30,6 @@
       },
       "syncEnabled": true
     }
-  ]
+  ],
+  "id": "c9823f08-422d-40d3-a726-a8e50b2d97ce"
 }
