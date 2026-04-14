@@ -29,6 +29,19 @@
         ]
       },
       "syncEnabled": true
+    },
+    {
+      "name": "Feedback",
+      "schema": {
+        "columns": [
+          { "name": "category", "type": "STRING" },
+          { "name": "message", "type": "STRING" },
+          { "name": "userId", "type": "STRING" },
+          { "name": "userName", "type": "STRING" },
+          { "name": "timestamp", "type": "STRING" }
+        ]
+      },
+      "syncEnabled": false
     }
   ],
   "id": "c9823f08-422d-40d3-a726-a8e50b2d97ce"

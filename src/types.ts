@@ -11,6 +11,13 @@ export interface Patient {
   'Patient Date Of Birth': string;
 }
 
+export interface QueryFilters {
+  location: string | null;
+  appointmentDate: string | null;
+  sortBy: string;
+  sortDirection: 'ascending' | 'descending';
+}
+
 // Activity log event types
 export type EngagementEventType = 'ASSIGNED' | 'UNASSIGNED' | 'CALLED' | 'UNCALLED' | 'COMMENT';
 
