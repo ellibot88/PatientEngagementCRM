@@ -13,34 +13,13 @@
       "name": "PatientEngagement",
       "schema": {
         "columns": [
-          {
-            "name": "eventType",
-            "type": "STRING"
-          },
-          {
-            "name": "patientId",
-            "type": "STRING"
-          },
-          {
-            "name": "patientName",
-            "type": "STRING"
-          },
-          {
-            "name": "userId",
-            "type": "STRING"
-          },
-          {
-            "name": "userName",
-            "type": "STRING"
-          },
-          {
-            "name": "timestamp",
-            "type": "STRING"
-          },
-          {
-            "name": "comment",
-            "type": "STRING"
-          }
+          { "name": "eventType", "type": "STRING" },
+          { "name": "patientId", "type": "STRING" },
+          { "name": "patientName", "type": "STRING" },
+          { "name": "userId", "type": "STRING" },
+          { "name": "userName", "type": "STRING" },
+          { "name": "timestamp", "type": "STRING" },
+          { "name": "comment", "type": "STRING" }
         ]
       },
       "syncEnabled": true
@@ -49,26 +28,11 @@
       "name": "Feedback",
       "schema": {
         "columns": [
-          {
-            "name": "category",
-            "type": "STRING"
-          },
-          {
-            "name": "message",
-            "type": "STRING"
-          },
-          {
-            "name": "userId",
-            "type": "STRING"
-          },
-          {
-            "name": "userName",
-            "type": "STRING"
-          },
-          {
-            "name": "timestamp",
-            "type": "STRING"
-          }
+          { "name": "category", "type": "STRING" },
+          { "name": "message", "type": "STRING" },
+          { "name": "userId", "type": "STRING" },
+          { "name": "userName", "type": "STRING" },
+          { "name": "timestamp", "type": "STRING" }
         ]
       },
       "syncEnabled": false
