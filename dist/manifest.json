@@ -7,13 +7,7 @@
     "height": 3
   },
   "fileName": "manifest.json",
-  "datasetsMapping": [
-    {
-      "alias": "patients",
-      "dataSetId": "b1508706-2597-4d5a-9828-0c55921ea9f8",
-      "fields": []
-    }
-  ],
+  "datasetsMapping": [],
   "collectionsMapping": [
     {
       "name": "PatientEngagement",
@@ -80,5 +74,5 @@
       "syncEnabled": false
     }
   ],
-  "id": "c9823f08-422d-40d3-a726-a8e50b2d97ce"
+  "id": "560fec8f-d009-4564-bca4-f020bc86fdf3"
 }
